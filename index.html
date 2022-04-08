@@ -17,7 +17,7 @@
             margin: 0px auto;
             padding: 0px;
             background: var(--bgcolor);
-            width: 8.26in;
+            width: 8.3in;
             position: relative;
             height: 100%;
         }
@@ -56,6 +56,11 @@
             width: calc(100% - 125px);
         }
 
+        .main-sub-title-content a{
+            text-decoration: none;
+            color: var(--maincolor);
+            font-weight: 500;
+        }
         .main-paragraph {
             font-size: 1.2em;
             font-weight: bold;
@@ -197,10 +202,9 @@
             align-items: center;
         }
 
-        .padding-page-end {
-            padding-bottom: 48px
+        @page{
+            background: black;
         }
-
         @media print {
             .page-break {
                 page-break-after: always;
@@ -222,9 +226,11 @@
     </div>
     <div class="main-sub-title">
         <div class="main-sub-title-title">Email Address:</div>
-        <div class="main-sub-title-content">menna.a.a.youssef@gmail.com</div>
+        <div class="main-sub-title-content"><a href="mailto:menna.a.a.youssef@gmail.com">menna.a.a.youssef@gmail.com</a></div>
         <div class="main-sub-title-title">Mobile Number:</div>
-        <div class="main-sub-title-content">+20 01229898558</div>
+        <div class="main-sub-title-content"><a href="tel:+2001229898558">+20 01229898558</a></div>
+        <div class="main-sub-title-title">LinkedIn Profile:</div>
+        <div class="main-sub-title-content"><a target="_blank" href="https://www.linkedin.com/in/menna-a-a-youssef">https://www.linkedin.com/in/menna-a-a-youssef</a></div>
     </div>
     <div class="qr-section">
         <div class="linkedin">
@@ -847,7 +853,7 @@
             </div>
         </div>
     </div>
-    <div class="main-section">
+    <div class="main-section page-break">
         <div class="section-header">
             <div class="section-number">05</div>
             <div class="section-title">PERSONAL AND CONTACT INFORMATION</div>
@@ -869,6 +875,7 @@
             </div>
         </div>
     </div>
+    <br>
 </div>
 
 
