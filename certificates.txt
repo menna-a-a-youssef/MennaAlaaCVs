@@ -1,3 +1,5 @@
+Programming 101
+https://www.udemy.com/course/programming-101
 
 React Clarified: “Thinking in React”
 https://www.udemy.com/course/react-clarified-thinking-in-react
