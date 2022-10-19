@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mennatallah Aladdin CV</title>
+    <style>
+        :root {
+            --maincolor: #6186c4;
+            --bgcolor: #f4f5f6;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body, html {
+            margin: 0px auto;
+            padding: 0px;
+            background: var(--bgcolor);
+            width: 8.3in;
+            position: relative;
+            height: 100%;
+        }
+
+        .main-container {
+            font-family: system-ui !important;
+            background: var(--bgcolor);
+            padding: 0px 50px;
+            font-size: 13px;
+        }
+
+        .main-title {
+            background: var(--maincolor);
+            margin-bottom: 20px;
+            padding: 30px 10px 10px 10px;
+            margin-top: 0px;
+            color: #FFF;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .main-sub-title {
+            margin-bottom: 20px;
+        }
+
+        .main-sub-title-title {
+            display: inline-block;
+            width: 120px;
+            font-weight: bold;
+        }
+
+        .main-sub-title-content {
+            display: inline-block;
+            width: calc(100% - 125px);
+        }
+
+        .main-sub-title-content a{
+            text-decoration: none;
+            color: var(--maincolor);
+            font-weight: 500;
+        }
+        .main-paragraph {
+            font-size: 1.1em;
+            font-weight: bold;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            margin-right: 110px;
+        }
+
+        .section-header {
+            margin-bottom: 20px;
+        }
+
+        .section-number {
+            background: var(--maincolor);
+            padding: 5px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3em;
+            color: #FFF;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .section-title {
+            margin-top: 0px;
+            font-size: 1.3em;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .main-section {
+            margin-bottom: 30px;
+        }
+
+        .section-content {
+
+        }
+
+        .sub-section {
+            margin-bottom: 20px;
+        }
+
+        .sub-section:last-of-type {
+            margin-bottom: 20px;
+        }
+
+        .sub-section-title {
+            font-weight: bold;
+
+        }
+
+        .sub-section-sub-title {
+            font-weight: bold;
+            font-size: 0.85em;
+
+        }
+
+        .sub-section-paragraph {
+            margin-bottom: 20px;
+            margin-top: 5px;
+        }
+
+        .sub-section-content {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .sub-section-content:last-of-type {
+            margin-bottom: 0px;
+        }
+
+        .sub-section-content li::before {
+            margin-right: 10px;
+            content: "";
+            background-color: var(--maincolor);
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+        }
+
+        .sub-section-content li {
+            margin-bottom: 10px;
+        }
+
+        .sub-section-content li:last-of-type {
+            margin-bottom: 0px;
+        }
+
+        .two-columns {
+            display: flex;
+            margin-bottom: -20px;
+        }
+
+        .qr-section {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 85px;
+            margin-right: 30px;
+        }
+
+        .qr-section .code {
+            width: 100px;
+            height: 100px;
+        }
+
+        .qr-section .code > rect {
+            fill: var(--bgcolor);
+        }
+
+        .qr-section .logo, .qr-section .logo * {
+            height: 1.1em;
+            fill: var(--maincolor) !important;
+        }
+
+        .qr-section .logo{
+            width: 55px;
+        }
+
+        .qr-section .linkedin {
+            font-size: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .qr-section .linkedin * {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @page{
+            background: black;
+        }
+        @media print {
+            .page-break {
+                page-break-after: always;
+            }
+
+            .mt30px {
+                margin-top: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="main-container">
+    <div class="main-title">Mennatallah Aladdin</div>
+    <div class="main-paragraph">
+        Front-End Developer with 5 years experience developing responsive websites and web applications, resolved hundreds of
+        compatibility issues for safari and edge, created over 50 Front-End components while 100% adhering to project deadlines.
+        Looking forward to creating beautiful, responsive and profitable UI for your company.
+    </div>
+    <div class="main-sub-title">
+        <div class="main-sub-title-title">Full Official Name:</div>
+        <div class="main-sub-title-content">Mennatallah Aladdin Abdulaziz Youssef</div>
+        <div class="main-sub-title-title">Email Address:</div>
+        <div class="main-sub-title-content"><a href="mailto:menna.a.a.youssef@gmail.com">menna.a.a.youssef@gmail.com</a></div>
+        <div class="main-sub-title-title">Mobile Number:</div>
+        <div class="main-sub-title-content"><a href="tel:+2001229898558">+20 01229898558</a></div>
+        <div class="main-sub-title-title">LinkedIn Profile:</div>
+        <div class="main-sub-title-content"><a target="_blank" href="https://www.linkedin.com/in/menna-a-a-youssef">https://www.linkedin.com/in/menna-a-a-youssef</a></div>
+    </div>
+    <div class="qr-section">
+        <div class="linkedin">
+            <div>scan QR for</div>
+            <div>
+                <svg class="logo" width="100%" height="100%" viewBox="0 0 924 226" version="1.1"
+                     xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                     style="stroke-linejoin:round;stroke-miterlimit:2;">
+                    <g transform="matrix(1,0,0,1,-138.462,-287.425)">
+                        <path d="M1048.57,498.296C1048.58,498.296 1048.59,498.296 1048.61,498.296C1050.88,498.296 1052.75,496.427 1052.75,494.156C1052.75,494.076 1052.75,493.997 1052.74,493.917C1052.74,490.812 1050.87,489.328 1047.02,489.328L1040.81,489.328L1040.81,505.588L1043.15,505.588L1043.15,498.5L1046.02,498.5L1046.08,498.586L1050.54,505.588L1053.04,505.588L1048.25,498.341L1048.57,498.296ZM1045.86,496.667L1043.15,496.667L1043.15,491.171L1046.59,491.171C1048.36,491.171 1050.38,491.46 1050.38,493.783C1050.38,496.454 1048.34,496.667 1045.85,496.667M138.462,320.509L172.944,320.509L172.944,446.115L236.783,446.115L236.783,477.937L138.462,477.937L138.462,320.509ZM252.028,371.196L285.155,371.196L285.155,477.878L252.028,477.878L252.028,371.196ZM268.591,318.159C279.132,318.161 287.805,326.835 287.805,337.376C287.805,347.918 279.13,356.593 268.588,356.593C258.046,356.593 249.371,347.918 249.371,337.376C249.371,326.834 258.046,318.159 268.588,318.159C268.589,318.159 268.59,318.159 268.591,318.159M423.728,320.485L456.855,320.485L456.855,414.568L494.399,371.148L535.014,371.148L491.535,420.538L534.099,477.923L492.463,477.923L457.297,425.189L456.862,425.189L456.862,477.916L423.735,477.916L423.728,320.485ZM303.523,371.207L335.335,371.207L335.335,385.786L335.787,385.786C342.252,374.709 354.337,368.07 367.154,368.553C400.747,368.553 406.93,390.655 406.93,419.368L406.93,477.871L373.803,477.871L373.803,426.004C373.803,413.623 373.576,397.708 356.55,397.708C339.331,397.708 336.674,411.19 336.674,425.103L336.674,477.858L303.547,477.858L303.523,371.207Z"/>
+                        <path d="M604.777,412.129C604.78,411.973 604.782,411.816 604.782,411.66C604.782,400.764 595.816,391.798 584.92,391.798C584.759,391.798 584.599,391.8 584.438,391.804C572.473,391.059 561.971,400.177 561.029,412.129L604.777,412.129ZM632.838,459.403C621.697,472.913 605.047,480.714 587.537,480.629C554.41,480.629 527.888,458.516 527.888,424.275C527.888,390.034 554.407,367.932 587.537,367.932C618.5,367.932 637.917,390.016 637.917,424.275L637.917,434.662L561.029,434.662C562.999,446.786 573.714,455.7 585.994,455.432C595.565,455.372 604.478,450.457 609.635,442.395L632.838,459.403ZM706.966,396.983C690.403,396.983 680.465,408.043 680.465,424.158C680.465,440.273 690.399,451.342 706.966,451.342C723.533,451.342 733.492,440.3 733.492,424.158C733.492,408.015 723.55,396.983 706.966,396.983M763.989,477.858L733.492,477.858L733.492,463.71L733.04,463.71C725.29,474.133 713.094,480.354 700.106,480.508C668.277,480.508 647.31,457.536 647.31,425.051C647.31,395.217 665.865,367.821 696.365,367.821C710.075,367.821 722.881,371.572 730.393,381.969L730.828,381.969L730.828,320.474L763.985,320.474L763.989,477.858ZM987.626,477.92L954.499,477.92L954.499,426.042C954.499,413.671 954.278,397.746 937.27,397.746C920.016,397.746 917.376,411.224 917.376,425.141L917.376,477.916L884.25,477.916L884.25,371.234L916.051,371.234L916.051,385.813L916.497,385.813C922.972,374.742 935.056,368.105 947.874,368.581C981.449,368.581 987.64,390.665 987.64,419.396L987.626,477.92ZM846.872,356.651C846.87,356.651 846.869,356.651 846.868,356.651C836.322,356.651 827.644,347.974 827.644,337.428C827.644,326.882 836.322,318.204 846.868,318.204C857.413,318.204 866.09,326.88 866.092,337.424C866.092,337.425 866.092,337.426 866.092,337.428C866.092,347.972 857.416,356.65 846.872,356.651M863.435,477.92L830.274,477.92L830.274,371.234L863.435,371.234L863.435,477.92ZM1004.14,287.441L813.627,287.441C804.684,287.34 797.239,294.612 797.13,303.555L797.13,494.859C797.235,503.807 804.679,511.087 813.627,510.991L1004.14,510.991C1013.11,511.104 1020.58,503.825 1020.7,494.859L1020.7,303.542C1020.58,294.58 1013.1,287.309 1004.14,287.427M1046.15,482.085C1037.84,482.165 1031.05,489.021 1031.05,497.329C1031.05,505.693 1037.93,512.575 1046.29,512.575C1054.66,512.575 1061.54,505.693 1061.54,497.329C1061.54,489.021 1054.75,482.165 1046.44,482.085L1046.15,482.085M1046.15,510.829C1046.07,510.83 1046,510.831 1045.92,510.831C1038.59,510.831 1032.56,504.797 1032.56,497.463C1032.56,490.13 1038.59,484.095 1045.92,484.095C1053.17,484.095 1059.17,489.992 1059.29,497.24L1059.29,497.465C1059.44,504.638 1053.67,510.667 1046.5,510.822L1046.15,510.822"/>
+                    </g>
+                </svg>
+                profile
+            </div>
+        </div>
+        <svg class="code" width="296" height="296" viewBox="0 0 296 296"
+             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:ev="http://www.w3.org/2001/xml-events">
+            <rect x="0" y="0" width="296" height="296"/>
+            <defs>
+                <rect id="p" width="8" height="8"/>
+            </defs>
+            <g fill="#000000">
+                <use xlink:href="#p" x="32" y="32"/>
+                <use xlink:href="#p" x="32" y="40"/>
+                <use xlink:href="#p" x="32" y="48"/>
+                <use xlink:href="#p" x="32" y="56"/>
+                <use xlink:href="#p" x="32" y="64"/>
+                <use xlink:href="#p" x="32" y="72"/>
+                <use xlink:href="#p" x="32" y="80"/>
+                <use xlink:href="#p" x="32" y="96"/>
+                <use xlink:href="#p" x="32" y="104"/>
+                <use xlink:href="#p" x="32" y="128"/>
+                <use xlink:href="#p" x="32" y="208"/>
+                <use xlink:href="#p" x="32" y="216"/>
+                <use xlink:href="#p" x="32" y="224"/>
+                <use xlink:href="#p" x="32" y="232"/>
+                <use xlink:href="#p" x="32" y="240"/>
+                <use xlink:href="#p" x="32" y="248"/>
+                <use xlink:href="#p" x="32" y="256"/>
+                <use xlink:href="#p" x="40" y="32"/>
+                <use xlink:href="#p" x="40" y="80"/>
+                <use xlink:href="#p" x="40" y="96"/>
+                <use xlink:href="#p" x="40" y="104"/>
+                <use xlink:href="#p" x="40" y="136"/>
+                <use xlink:href="#p" x="40" y="144"/>
+                <use xlink:href="#p" x="40" y="152"/>
+                <use xlink:href="#p" x="40" y="160"/>
+                <use xlink:href="#p" x="40" y="168"/>
+                <use xlink:href="#p" x="40" y="184"/>
+                <use xlink:href="#p" x="40" y="192"/>
+                <use xlink:href="#p" x="40" y="208"/>
+                <use xlink:href="#p" x="40" y="256"/>
+                <use xlink:href="#p" x="48" y="32"/>
+                <use xlink:href="#p" x="48" y="48"/>
+                <use xlink:href="#p" x="48" y="56"/>
+                <use xlink:href="#p" x="48" y="64"/>
+                <use xlink:href="#p" x="48" y="80"/>
+                <use xlink:href="#p" x="48" y="104"/>
+                <use xlink:href="#p" x="48" y="120"/>
+                <use xlink:href="#p" x="48" y="144"/>
+                <use xlink:href="#p" x="48" y="152"/>
+                <use xlink:href="#p" x="48" y="160"/>
+                <use xlink:href="#p" x="48" y="176"/>
+                <use xlink:href="#p" x="48" y="184"/>
+                <use xlink:href="#p" x="48" y="192"/>
+                <use xlink:href="#p" x="48" y="208"/>
+                <use xlink:href="#p" x="48" y="224"/>
+                <use xlink:href="#p" x="48" y="232"/>
+                <use xlink:href="#p" x="48" y="240"/>
+                <use xlink:href="#p" x="48" y="256"/>
+                <use xlink:href="#p" x="56" y="32"/>
+                <use xlink:href="#p" x="56" y="48"/>
+                <use xlink:href="#p" x="56" y="56"/>
+                <use xlink:href="#p" x="56" y="64"/>
+                <use xlink:href="#p" x="56" y="80"/>
+                <use xlink:href="#p" x="56" y="112"/>
+                <use xlink:href="#p" x="56" y="120"/>
+                <use xlink:href="#p" x="56" y="128"/>
+                <use xlink:href="#p" x="56" y="152"/>
+                <use xlink:href="#p" x="56" y="168"/>
+                <use xlink:href="#p" x="56" y="192"/>
+                <use xlink:href="#p" x="56" y="208"/>
+                <use xlink:href="#p" x="56" y="224"/>
+                <use xlink:href="#p" x="56" y="232"/>
+                <use xlink:href="#p" x="56" y="240"/>
+                <use xlink:href="#p" x="56" y="256"/>
+                <use xlink:href="#p" x="64" y="32"/>
+                <use xlink:href="#p" x="64" y="48"/>
+                <use xlink:href="#p" x="64" y="56"/>
+                <use xlink:href="#p" x="64" y="64"/>
+                <use xlink:href="#p" x="64" y="80"/>
+                <use xlink:href="#p" x="64" y="104"/>
+                <use xlink:href="#p" x="64" y="120"/>
+                <use xlink:href="#p" x="64" y="136"/>
+                <use xlink:href="#p" x="64" y="144"/>
+                <use xlink:href="#p" x="64" y="160"/>
+                <use xlink:href="#p" x="64" y="192"/>
+                <use xlink:href="#p" x="64" y="208"/>
+                <use xlink:href="#p" x="64" y="224"/>
+                <use xlink:href="#p" x="64" y="232"/>
+                <use xlink:href="#p" x="64" y="240"/>
+                <use xlink:href="#p" x="64" y="256"/>
+                <use xlink:href="#p" x="72" y="32"/>
+                <use xlink:href="#p" x="72" y="80"/>
+                <use xlink:href="#p" x="72" y="96"/>
+                <use xlink:href="#p" x="72" y="104"/>
+                <use xlink:href="#p" x="72" y="128"/>
+                <use xlink:href="#p" x="72" y="136"/>
+                <use xlink:href="#p" x="72" y="184"/>
+                <use xlink:href="#p" x="72" y="192"/>
+                <use xlink:href="#p" x="72" y="208"/>
+                <use xlink:href="#p" x="72" y="256"/>
+                <use xlink:href="#p" x="80" y="32"/>
+                <use xlink:href="#p" x="80" y="40"/>
+                <use xlink:href="#p" x="80" y="48"/>
+                <use xlink:href="#p" x="80" y="56"/>
+                <use xlink:href="#p" x="80" y="64"/>
+                <use xlink:href="#p" x="80" y="72"/>
+                <use xlink:href="#p" x="80" y="80"/>
+                <use xlink:href="#p" x="80" y="96"/>
+                <use xlink:href="#p" x="80" y="112"/>
+                <use xlink:href="#p" x="80" y="128"/>
+                <use xlink:href="#p" x="80" y="144"/>
+                <use xlink:href="#p" x="80" y="160"/>
+                <use xlink:href="#p" x="80" y="176"/>
+                <use xlink:href="#p" x="80" y="192"/>
+                <use xlink:href="#p" x="80" y="208"/>
+                <use xlink:href="#p" x="80" y="216"/>
+                <use xlink:href="#p" x="80" y="224"/>
+                <use xlink:href="#p" x="80" y="232"/>
+                <use xlink:href="#p" x="80" y="240"/>
+                <use xlink:href="#p" x="80" y="248"/>
+                <use xlink:href="#p" x="80" y="256"/>
+                <use xlink:href="#p" x="88" y="96"/>
+                <use xlink:href="#p" x="88" y="112"/>
+                <use xlink:href="#p" x="88" y="144"/>
+                <use xlink:href="#p" x="88" y="152"/>
+                <use xlink:href="#p" x="88" y="160"/>
+                <use xlink:href="#p" x="88" y="168"/>
+                <use xlink:href="#p" x="96" y="56"/>
+                <use xlink:href="#p" x="96" y="64"/>
+                <use xlink:href="#p" x="96" y="80"/>
+                <use xlink:href="#p" x="96" y="112"/>
+                <use xlink:href="#p" x="96" y="128"/>
+                <use xlink:href="#p" x="96" y="152"/>
+                <use xlink:href="#p" x="96" y="160"/>
+                <use xlink:href="#p" x="96" y="168"/>
+                <use xlink:href="#p" x="96" y="184"/>
+                <use xlink:href="#p" x="96" y="192"/>
+                <use xlink:href="#p" x="96" y="200"/>
+                <use xlink:href="#p" x="96" y="208"/>
+                <use xlink:href="#p" x="96" y="216"/>
+                <use xlink:href="#p" x="96" y="248"/>
+                <use xlink:href="#p" x="96" y="256"/>
+                <use xlink:href="#p" x="104" y="40"/>
+                <use xlink:href="#p" x="104" y="64"/>
+                <use xlink:href="#p" x="104" y="96"/>
+                <use xlink:href="#p" x="104" y="104"/>
+                <use xlink:href="#p" x="104" y="120"/>
+                <use xlink:href="#p" x="104" y="128"/>
+                <use xlink:href="#p" x="104" y="144"/>
+                <use xlink:href="#p" x="104" y="152"/>
+                <use xlink:href="#p" x="104" y="168"/>
+                <use xlink:href="#p" x="104" y="184"/>
+                <use xlink:href="#p" x="104" y="192"/>
+                <use xlink:href="#p" x="104" y="200"/>
+                <use xlink:href="#p" x="104" y="232"/>
+                <use xlink:href="#p" x="104" y="240"/>
+                <use xlink:href="#p" x="104" y="256"/>
+                <use xlink:href="#p" x="112" y="40"/>
+                <use xlink:href="#p" x="112" y="80"/>
+                <use xlink:href="#p" x="112" y="88"/>
+                <use xlink:href="#p" x="112" y="112"/>
+                <use xlink:href="#p" x="112" y="160"/>
+                <use xlink:href="#p" x="112" y="200"/>
+                <use xlink:href="#p" x="112" y="216"/>
+                <use xlink:href="#p" x="112" y="232"/>
+                <use xlink:href="#p" x="112" y="240"/>
+                <use xlink:href="#p" x="112" y="248"/>
+                <use xlink:href="#p" x="112" y="256"/>
+                <use xlink:href="#p" x="120" y="32"/>
+                <use xlink:href="#p" x="120" y="72"/>
+                <use xlink:href="#p" x="120" y="88"/>
+                <use xlink:href="#p" x="120" y="96"/>
+                <use xlink:href="#p" x="120" y="128"/>
+                <use xlink:href="#p" x="120" y="144"/>
+                <use xlink:href="#p" x="120" y="152"/>
+                <use xlink:href="#p" x="120" y="160"/>
+                <use xlink:href="#p" x="120" y="176"/>
+                <use xlink:href="#p" x="120" y="184"/>
+                <use xlink:href="#p" x="120" y="192"/>
+                <use xlink:href="#p" x="120" y="200"/>
+                <use xlink:href="#p" x="120" y="216"/>
+                <use xlink:href="#p" x="120" y="224"/>
+                <use xlink:href="#p" x="120" y="232"/>
+                <use xlink:href="#p" x="128" y="32"/>
+                <use xlink:href="#p" x="128" y="48"/>
+                <use xlink:href="#p" x="128" y="56"/>
+                <use xlink:href="#p" x="128" y="72"/>
+                <use xlink:href="#p" x="128" y="80"/>
+                <use xlink:href="#p" x="128" y="104"/>
+                <use xlink:href="#p" x="128" y="120"/>
+                <use xlink:href="#p" x="128" y="128"/>
+                <use xlink:href="#p" x="128" y="144"/>
+                <use xlink:href="#p" x="128" y="160"/>
+                <use xlink:href="#p" x="128" y="168"/>
+                <use xlink:href="#p" x="128" y="192"/>
+                <use xlink:href="#p" x="128" y="200"/>
+                <use xlink:href="#p" x="128" y="208"/>
+                <use xlink:href="#p" x="128" y="224"/>
+                <use xlink:href="#p" x="128" y="256"/>
+                <use xlink:href="#p" x="136" y="32"/>
+                <use xlink:href="#p" x="136" y="56"/>
+                <use xlink:href="#p" x="136" y="64"/>
+                <use xlink:href="#p" x="136" y="96"/>
+                <use xlink:href="#p" x="136" y="104"/>
+                <use xlink:href="#p" x="136" y="136"/>
+                <use xlink:href="#p" x="136" y="144"/>
+                <use xlink:href="#p" x="136" y="160"/>
+                <use xlink:href="#p" x="136" y="176"/>
+                <use xlink:href="#p" x="136" y="192"/>
+                <use xlink:href="#p" x="136" y="208"/>
+                <use xlink:href="#p" x="136" y="240"/>
+                <use xlink:href="#p" x="136" y="256"/>
+                <use xlink:href="#p" x="144" y="32"/>
+                <use xlink:href="#p" x="144" y="48"/>
+                <use xlink:href="#p" x="144" y="56"/>
+                <use xlink:href="#p" x="144" y="72"/>
+                <use xlink:href="#p" x="144" y="80"/>
+                <use xlink:href="#p" x="144" y="88"/>
+                <use xlink:href="#p" x="144" y="96"/>
+                <use xlink:href="#p" x="144" y="120"/>
+                <use xlink:href="#p" x="144" y="144"/>
+                <use xlink:href="#p" x="144" y="160"/>
+                <use xlink:href="#p" x="144" y="168"/>
+                <use xlink:href="#p" x="144" y="184"/>
+                <use xlink:href="#p" x="144" y="192"/>
+                <use xlink:href="#p" x="144" y="216"/>
+                <use xlink:href="#p" x="144" y="232"/>
+                <use xlink:href="#p" x="144" y="256"/>
+                <use xlink:href="#p" x="152" y="48"/>
+                <use xlink:href="#p" x="152" y="56"/>
+                <use xlink:href="#p" x="152" y="96"/>
+                <use xlink:href="#p" x="152" y="104"/>
+                <use xlink:href="#p" x="152" y="112"/>
+                <use xlink:href="#p" x="152" y="136"/>
+                <use xlink:href="#p" x="152" y="144"/>
+                <use xlink:href="#p" x="152" y="160"/>
+                <use xlink:href="#p" x="152" y="168"/>
+                <use xlink:href="#p" x="152" y="176"/>
+                <use xlink:href="#p" x="152" y="184"/>
+                <use xlink:href="#p" x="152" y="200"/>
+                <use xlink:href="#p" x="152" y="208"/>
+                <use xlink:href="#p" x="152" y="216"/>
+                <use xlink:href="#p" x="152" y="232"/>
+                <use xlink:href="#p" x="152" y="240"/>
+                <use xlink:href="#p" x="152" y="256"/>
+                <use xlink:href="#p" x="160" y="40"/>
+                <use xlink:href="#p" x="160" y="48"/>
+                <use xlink:href="#p" x="160" y="56"/>
+                <use xlink:href="#p" x="160" y="72"/>
+                <use xlink:href="#p" x="160" y="80"/>
+                <use xlink:href="#p" x="160" y="112"/>
+                <use xlink:href="#p" x="160" y="120"/>
+                <use xlink:href="#p" x="160" y="128"/>
+                <use xlink:href="#p" x="160" y="144"/>
+                <use xlink:href="#p" x="160" y="152"/>
+                <use xlink:href="#p" x="160" y="168"/>
+                <use xlink:href="#p" x="160" y="176"/>
+                <use xlink:href="#p" x="160" y="184"/>
+                <use xlink:href="#p" x="160" y="216"/>
+                <use xlink:href="#p" x="160" y="224"/>
+                <use xlink:href="#p" x="160" y="232"/>
+                <use xlink:href="#p" x="160" y="240"/>
+                <use xlink:href="#p" x="168" y="40"/>
+                <use xlink:href="#p" x="168" y="56"/>
+                <use xlink:href="#p" x="168" y="64"/>
+                <use xlink:href="#p" x="168" y="96"/>
+                <use xlink:href="#p" x="168" y="104"/>
+                <use xlink:href="#p" x="168" y="112"/>
+                <use xlink:href="#p" x="168" y="136"/>
+                <use xlink:href="#p" x="168" y="160"/>
+                <use xlink:href="#p" x="168" y="168"/>
+                <use xlink:href="#p" x="168" y="192"/>
+                <use xlink:href="#p" x="168" y="200"/>
+                <use xlink:href="#p" x="168" y="208"/>
+                <use xlink:href="#p" x="168" y="232"/>
+                <use xlink:href="#p" x="168" y="256"/>
+                <use xlink:href="#p" x="176" y="32"/>
+                <use xlink:href="#p" x="176" y="64"/>
+                <use xlink:href="#p" x="176" y="80"/>
+                <use xlink:href="#p" x="176" y="96"/>
+                <use xlink:href="#p" x="176" y="104"/>
+                <use xlink:href="#p" x="176" y="136"/>
+                <use xlink:href="#p" x="176" y="144"/>
+                <use xlink:href="#p" x="176" y="168"/>
+                <use xlink:href="#p" x="176" y="184"/>
+                <use xlink:href="#p" x="176" y="192"/>
+                <use xlink:href="#p" x="176" y="200"/>
+                <use xlink:href="#p" x="176" y="232"/>
+                <use xlink:href="#p" x="184" y="48"/>
+                <use xlink:href="#p" x="184" y="64"/>
+                <use xlink:href="#p" x="184" y="88"/>
+                <use xlink:href="#p" x="184" y="96"/>
+                <use xlink:href="#p" x="184" y="104"/>
+                <use xlink:href="#p" x="184" y="120"/>
+                <use xlink:href="#p" x="184" y="136"/>
+                <use xlink:href="#p" x="184" y="160"/>
+                <use xlink:href="#p" x="184" y="168"/>
+                <use xlink:href="#p" x="184" y="176"/>
+                <use xlink:href="#p" x="184" y="208"/>
+                <use xlink:href="#p" x="184" y="216"/>
+                <use xlink:href="#p" x="184" y="224"/>
+                <use xlink:href="#p" x="184" y="232"/>
+                <use xlink:href="#p" x="184" y="240"/>
+                <use xlink:href="#p" x="184" y="256"/>
+                <use xlink:href="#p" x="192" y="40"/>
+                <use xlink:href="#p" x="192" y="56"/>
+                <use xlink:href="#p" x="192" y="64"/>
+                <use xlink:href="#p" x="192" y="80"/>
+                <use xlink:href="#p" x="192" y="88"/>
+                <use xlink:href="#p" x="192" y="104"/>
+                <use xlink:href="#p" x="192" y="120"/>
+                <use xlink:href="#p" x="192" y="128"/>
+                <use xlink:href="#p" x="192" y="136"/>
+                <use xlink:href="#p" x="192" y="144"/>
+                <use xlink:href="#p" x="192" y="152"/>
+                <use xlink:href="#p" x="192" y="168"/>
+                <use xlink:href="#p" x="192" y="176"/>
+                <use xlink:href="#p" x="192" y="184"/>
+                <use xlink:href="#p" x="192" y="192"/>
+                <use xlink:href="#p" x="192" y="200"/>
+                <use xlink:href="#p" x="192" y="208"/>
+                <use xlink:href="#p" x="192" y="216"/>
+                <use xlink:href="#p" x="192" y="224"/>
+                <use xlink:href="#p" x="200" y="144"/>
+                <use xlink:href="#p" x="200" y="152"/>
+                <use xlink:href="#p" x="200" y="192"/>
+                <use xlink:href="#p" x="200" y="224"/>
+                <use xlink:href="#p" x="200" y="232"/>
+                <use xlink:href="#p" x="200" y="240"/>
+                <use xlink:href="#p" x="208" y="32"/>
+                <use xlink:href="#p" x="208" y="40"/>
+                <use xlink:href="#p" x="208" y="48"/>
+                <use xlink:href="#p" x="208" y="56"/>
+                <use xlink:href="#p" x="208" y="64"/>
+                <use xlink:href="#p" x="208" y="72"/>
+                <use xlink:href="#p" x="208" y="80"/>
+                <use xlink:href="#p" x="208" y="112"/>
+                <use xlink:href="#p" x="208" y="128"/>
+                <use xlink:href="#p" x="208" y="136"/>
+                <use xlink:href="#p" x="208" y="144"/>
+                <use xlink:href="#p" x="208" y="152"/>
+                <use xlink:href="#p" x="208" y="168"/>
+                <use xlink:href="#p" x="208" y="184"/>
+                <use xlink:href="#p" x="208" y="192"/>
+                <use xlink:href="#p" x="208" y="208"/>
+                <use xlink:href="#p" x="208" y="224"/>
+                <use xlink:href="#p" x="208" y="240"/>
+                <use xlink:href="#p" x="208" y="256"/>
+                <use xlink:href="#p" x="216" y="32"/>
+                <use xlink:href="#p" x="216" y="80"/>
+                <use xlink:href="#p" x="216" y="104"/>
+                <use xlink:href="#p" x="216" y="120"/>
+                <use xlink:href="#p" x="216" y="128"/>
+                <use xlink:href="#p" x="216" y="144"/>
+                <use xlink:href="#p" x="216" y="152"/>
+                <use xlink:href="#p" x="216" y="160"/>
+                <use xlink:href="#p" x="216" y="168"/>
+                <use xlink:href="#p" x="216" y="184"/>
+                <use xlink:href="#p" x="216" y="192"/>
+                <use xlink:href="#p" x="216" y="224"/>
+                <use xlink:href="#p" x="216" y="232"/>
+                <use xlink:href="#p" x="216" y="240"/>
+                <use xlink:href="#p" x="216" y="248"/>
+                <use xlink:href="#p" x="216" y="256"/>
+                <use xlink:href="#p" x="224" y="32"/>
+                <use xlink:href="#p" x="224" y="48"/>
+                <use xlink:href="#p" x="224" y="56"/>
+                <use xlink:href="#p" x="224" y="64"/>
+                <use xlink:href="#p" x="224" y="80"/>
+                <use xlink:href="#p" x="224" y="96"/>
+                <use xlink:href="#p" x="224" y="104"/>
+                <use xlink:href="#p" x="224" y="136"/>
+                <use xlink:href="#p" x="224" y="152"/>
+                <use xlink:href="#p" x="224" y="168"/>
+                <use xlink:href="#p" x="224" y="184"/>
+                <use xlink:href="#p" x="224" y="192"/>
+                <use xlink:href="#p" x="224" y="200"/>
+                <use xlink:href="#p" x="224" y="208"/>
+                <use xlink:href="#p" x="224" y="216"/>
+                <use xlink:href="#p" x="224" y="224"/>
+                <use xlink:href="#p" x="224" y="240"/>
+                <use xlink:href="#p" x="224" y="256"/>
+                <use xlink:href="#p" x="232" y="32"/>
+                <use xlink:href="#p" x="232" y="48"/>
+                <use xlink:href="#p" x="232" y="56"/>
+                <use xlink:href="#p" x="232" y="64"/>
+                <use xlink:href="#p" x="232" y="80"/>
+                <use xlink:href="#p" x="232" y="96"/>
+                <use xlink:href="#p" x="232" y="120"/>
+                <use xlink:href="#p" x="232" y="144"/>
+                <use xlink:href="#p" x="232" y="160"/>
+                <use xlink:href="#p" x="232" y="176"/>
+                <use xlink:href="#p" x="232" y="200"/>
+                <use xlink:href="#p" x="232" y="208"/>
+                <use xlink:href="#p" x="232" y="224"/>
+                <use xlink:href="#p" x="232" y="232"/>
+                <use xlink:href="#p" x="232" y="240"/>
+                <use xlink:href="#p" x="232" y="248"/>
+                <use xlink:href="#p" x="232" y="256"/>
+                <use xlink:href="#p" x="240" y="32"/>
+                <use xlink:href="#p" x="240" y="48"/>
+                <use xlink:href="#p" x="240" y="56"/>
+                <use xlink:href="#p" x="240" y="64"/>
+                <use xlink:href="#p" x="240" y="80"/>
+                <use xlink:href="#p" x="240" y="104"/>
+                <use xlink:href="#p" x="240" y="144"/>
+                <use xlink:href="#p" x="240" y="152"/>
+                <use xlink:href="#p" x="240" y="160"/>
+                <use xlink:href="#p" x="240" y="168"/>
+                <use xlink:href="#p" x="240" y="192"/>
+                <use xlink:href="#p" x="240" y="208"/>
+                <use xlink:href="#p" x="240" y="232"/>
+                <use xlink:href="#p" x="240" y="240"/>
+                <use xlink:href="#p" x="240" y="248"/>
+                <use xlink:href="#p" x="240" y="256"/>
+                <use xlink:href="#p" x="248" y="32"/>
+                <use xlink:href="#p" x="248" y="80"/>
+                <use xlink:href="#p" x="248" y="104"/>
+                <use xlink:href="#p" x="248" y="136"/>
+                <use xlink:href="#p" x="248" y="168"/>
+                <use xlink:href="#p" x="248" y="192"/>
+                <use xlink:href="#p" x="248" y="240"/>
+                <use xlink:href="#p" x="256" y="32"/>
+                <use xlink:href="#p" x="256" y="40"/>
+                <use xlink:href="#p" x="256" y="48"/>
+                <use xlink:href="#p" x="256" y="56"/>
+                <use xlink:href="#p" x="256" y="64"/>
+                <use xlink:href="#p" x="256" y="72"/>
+                <use xlink:href="#p" x="256" y="80"/>
+                <use xlink:href="#p" x="256" y="128"/>
+                <use xlink:href="#p" x="256" y="136"/>
+                <use xlink:href="#p" x="256" y="152"/>
+                <use xlink:href="#p" x="256" y="168"/>
+                <use xlink:href="#p" x="256" y="176"/>
+                <use xlink:href="#p" x="256" y="192"/>
+                <use xlink:href="#p" x="256" y="216"/>
+                <use xlink:href="#p" x="256" y="232"/>
+                <use xlink:href="#p" x="256" y="248"/>
+            </g>
+            <g></g>
+        </svg>
+    </div>
+    <div class="main-section page-break">
+        <div class="section-header">
+            <div class="section-number">01</div>
+            <div class="section-title">EXPERIENCE</div>
+        </div>
+        <div class="section-content">
+            <div class="sub-section">
+                <div class="sub-section-title">Senior UI Developer, Innuva IT Solutions, Alexandria, Egypt</div>
+                <div class="sub-section-sub-title">1/7/2019 to present (Junior 3 UI Developer in the same company
+                    15/5/2018 – 30/6/2019)
+                </div>
+                <ul class="sub-section-content">
+                    <li>Developed Front-End web pages using HTML,HTML5, CSS3, JavaScript, TypeScript and Jquery.
+                    </li>
+                    <li>Resolved hundreds of browser compatibility issues on Microsoft Edge and safari using customer requirements
+                        as a baseline.
+                    </li>
+                    <li>Planned and Implemented web pages to meet business and user goals and requirements while
+                        increasing end user satisfaction by 40%.
+                    </li>
+                    <li>Collaborated with customers and project managers to determine project scope and timeline and
+                        adhered to this timeline without overspill in an Agile environment.
+                    </li>
+                    <li>Structured web applications using javascript frameworks (ex: Angular, Vue.js) improving
+                        code readability and maintainability by 40% and reduced development time by 50%.
+                    </li>
+                    <li>Constructed pixel perfect web layouts following UX designs from Figma, Adobe XD and Adobe Illustrator,
+                        while maintaining responsiveness across the smallest devices contributing to over 80% decrease in UI bugs.
+                    </li>
+                    <li>Managed multiple projects Versions and branches Using Git while managing the projects and
+                        measuring team performance using Jira and TimeCamp to ensure a smooth simultaneous development
+                        process.
+                    </li>
+                    <li>Built and maintained multiple WordPress sites using themes and plugins ensuring customer and end user
+                        satisfaction with the beautiful responsive web blogs.
+                    </li>
+                    <li>Learned multiple Frameworks on the go from documentations and research using them in new projects
+                        and producing bug free working prototypes fast reducing expected project time consumption by 20%.
+                    </li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <div class="sub-section-title">UI Developer, ITSpark, Alexandria, Egypt</div>
+                <div class="sub-section-sub-title">1/7/2017 – 14/5/2018</div>
+                <ul class="sub-section-content">
+                    <li>Designed, edited and implemented psd mock-ups for websites ensuring 100% client
+                        satisfaction.
+                    </li>
+                    <li>Adhered to project timelines and schedules while providing a daily report with all tasks
+                        completed.
+                    </li>
+                    <li>Developed highly customized responsive web solutions
+                        and applications using Html, Css, Javascript and WordPress.
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="sub-section">
+                <div class="sub-section-title">Graphic Designer, Brightery, Alexandria, Egypt</div>
+                <div class="sub-section-sub-title">1/10/2015 – 1/10/2016</div>
+                <ul class="sub-section-content">
+                    <li>Designed Creative logos and identities for marketing campaigns for social media pages
+                        and products increasing sales by 60%.
+                    </li>
+                    <li>Created targeted social media designs resulting in 30% increase in page engagement.</li>
+                    <li>Composed high resolution eye catching printable banners and posters.</li>
+                    <li>Illustrated character concepts and character design for 2d characters used in social media campaigns
+                        increasing users satisfaction and engagement.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-section mt30px">
+        <div class="section-header">
+            <div class="section-number">02</div>
+            <div class="section-title">SKILLS</div>
+        </div>
+        <div class="section-content two-columns">
+            <div class="sub-section">
+                <div class="sub-section-title">Technical Skills</div>
+                <ul class="sub-section-content">
+                    <li>HTML5, CSS3, JavaScript ES6, TypeScript and React.js(Self-Learning).</li>
+                    <li>Angular, Vue.js, SASS, Jquery and WordPress.</li>
+                    <li>Git, Jira, Trello and TimeCamp.</li>
+                    <li>Photoshop, Illustrator and Figma.</li>
+                    <li>Agile and Scrum methodologies.</li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <div class="sub-section-title">Soft Skills And Languages</div>
+                <ul class="sub-section-content">
+                    <li>Leadership, public Speaking and Project Management.</li>
+                    <li>Self Learning and Googling.</li>
+                    <li>English Language: Fluent.</li>
+                    <li>Arabic Language: Native.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="section-header">
+            <div class="section-number">03</div>
+            <div class="section-title">EDUCATION</div>
+        </div>
+        <div class="section-content">
+            <div class="sub-section">
+                <div class="sub-section-title">9 Month Diploma in User Interface Design</div>
+                <div class="sub-section-sub-title">10/2016 – 7/2017</div>
+                <div class="sub-section-paragraph">User Interface Design Track, Information Technology Institute (ITI),
+                    Alexandria Branch, Egypt.
+                </div>
+            </div>
+            <div class="sub-section">
+                <div class="sub-section-title">Bachelor's Degree of Arts</div>
+                <div class="sub-section-sub-title">9/2012 – 5/2016</div>
+                <div class="sub-section-paragraph">Phonetics and Linguistics department, Faculty of Arts, Alexandria
+                    University, Egypt.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="section-header">
+            <div class="section-number">04</div>
+            <div class="section-title">VOLUNTEER EXPERIENCE</div>
+        </div>
+        <div class="section-content">
+            <div class="sub-section">
+                <div class="sub-section-title">Project Lighthouse 2015 / Media committee - Graphic Designer</div>
+                <div class="sub-section-sub-title">8/2015 – 12/2015</div>
+            </div>
+            <div class="sub-section">
+                <div class="sub-section-title">Faculty of arts student union / Volunteer - Graphic Designer</div>
+                <div class="sub-section-sub-title">5/2013 – 5/2016</div>
+            </div>
+            <div class="sub-section">
+                <div class="sub-section-title">Model American Congress 2013 / Participant</div>
+                <div class="sub-section-sub-title">2/2013 – 5/2013</div>
+            </div>
+            <div class="sub-section">
+                <div class="sub-section-title">Project Lighthouse 2012 / Participant</div>
+                <div class="sub-section-sub-title">9/2012 – 11/2012</div>
+            </div>
+        </div>
+    </div>
+    <div class="main-section page-break">
+        <div class="section-header">
+            <div class="section-number">05</div>
+            <div class="section-title">PERSONAL AND CONTACT INFORMATION</div>
+        </div>
+        <div class="section-content padding-page-end">
+            <div class="main-sub-title-title">Full Official Name:</div>
+            <div class="main-sub-title-content">Mennatallah Aladdin Abdulaziz Youssef</div>
+            <div class="main-sub-title-title">Mobile Number:</div>
+            <div class="main-sub-title-content">+20 01229898558</div>
+            <div class="main-sub-title-title">Email Address:</div>
+            <div class="main-sub-title-content">menna.a.a.youssef@gmail.com</div>
+            <div class="main-sub-title-title">Date of Birth:</div>
+            <div class="main-sub-title-content">22/4/1994</div>
+            <div class="main-sub-title-title">Nationality:</div>
+            <div class="main-sub-title-content">Egyptian</div>
+            <div class="main-sub-title-title">Current City:</div>
+            <div class="main-sub-title-content">Alexandria, Egypt</div>
+        </div>
+    </div>
+    <br>
+</div>
+
+
+</body>
+</html>
